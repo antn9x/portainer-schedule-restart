@@ -24,6 +24,8 @@ function createCron(containerId) {
   });
 }
 
-export function startSchedule() {
+function startSchedule() {
   containersList.split(',').forEach(createCron);
 }
+
+startSchedule();
