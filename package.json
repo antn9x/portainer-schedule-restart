@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "docker": "docker build --tag antn9x/portainer-schedule-restart:latest .",
     "start": "node index.js"
   },
   "keywords": [],
